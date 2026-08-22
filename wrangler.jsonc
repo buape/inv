@@ -1,0 +1,16 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "inv",
+	"account_id": "cb8680c9bbcf0c359fccbb5e634df935",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-08-21",
+	"observability": {
+		"enabled": true
+	},
+		"routes": [
+		{
+			"pattern": "inv.bua.pe",
+			"custom_domain": true
+		}
+	]
+}
